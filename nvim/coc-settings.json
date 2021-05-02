@@ -1,0 +1,6 @@
+{
+    "clangd.semanticHighlighting": true,
+    "python.linting.pep8Enabled":true,
+    "coc.preferences.formatOnSaveFiletypes":["python","cpp","c"],
+    "latex.forwardSearch.executable":"/usr/bin/zathura"
+}

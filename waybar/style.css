@@ -1,0 +1,186 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family : Roboto, Helvetica, Arial, sans-serif, "DroidSansMono Nerd Font";
+    font-size: 12px;
+    min-height: 0;
+    }
+window {
+    /*background: transparent;*/
+    background: #282828;
+    /*opacity:0.2;*/
+}
+
+window > box {
+    margin: 0px 0px 0px 0px;
+    color: #ffffff;
+}
+
+/*
+window#waybar.hidded {
+    opacity: 0.2;
+}
+*/
+#workspaces {
+    margin-right: 10px;
+}
+
+/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
+#workspaces button {
+    padding: 0 5px;
+    background: transparent;
+    color: #d5c4a1;
+    /* border-bottom: 3px solid transparent; */
+}
+#workspaces button:hover {
+    box-shadow: inherit;
+    background: #504945;
+}
+
+#workspaces button.focused {
+    background: #bdae93;
+    color: #282828;
+    /* border-bottom: 3px solid #ffffff; */
+}
+
+#workspaces button.urgent {
+    background-color: #fb4934;
+    color: #282828;
+}
+
+#mode {
+    background: #bdae93;
+    color: #282828;
+}
+
+#clock, #cpu, #memory, #temperature, #backlight, #network, #pulseaudio, #custom-media, #tray, #mode, #idle_inhibitor, #mpd, #custom-poweroff, #custom-suspend, #custom-hibernate, #custom-reboot, #custom-lock, #custom-uefi {
+    padding: 0 10px;
+    margin: 0 5px;
+}
+
+#clock {
+    background-color: #282828;
+    color: #d5c4a1;
+}
+
+#battery {
+    background-color: #b8bb26;
+    color: #282828;
+    padding: 0 10px;
+    margin-left: 5px;
+}
+#batter.warning {
+    background: #d65d0e;
+    color: #282828;
+
+}
+
+#battery.charging {
+    background-color: #edbdd2;
+    color: #504945;
+}
+
+@keyframes blink {
+    to {
+        background-color: #ffffff;
+        color: #000000;
+    }
+}
+
+#battery.critical:not(.charging) {
+    background: #fb4934;
+    color: #282828;
+}
+
+label:focus {
+    background-color: #000000;
+}
+
+#cpu {
+    background-color: #d3869b;
+    color: #282828;
+}
+
+#memory {
+    background: #d3869b;
+    color: #282828;
+}
+
+#backlight {
+    background: #fabd2f;
+    color: #282828;
+}
+
+#network {
+    background: #83a598;
+    color: #282828;
+}
+
+#network.disconnected {
+    background: #fb4934;
+    color: #282828;
+}
+
+#pulseaudio {
+    background: #8ec07c;
+    color: #282828;
+}
+
+#pulseaudio.muted {
+    background: #504945;
+    color: #bdae93;
+}
+#mpd {
+    background: #8ec07c;
+    color: #282828;
+}
+
+#mpd.disconnected {
+    background: #fb4934;
+    color: #282828;
+}
+
+#mpd.stopped {
+    background: #504945;
+    color: #bdae93;
+}
+
+#mpd.paused {
+    background: #504945;
+    color: #bdae93;
+}
+
+#custom-media {
+    background: #66cc99;
+    color: #2a5c45;
+}
+
+.custom-spotify {
+    background: #66cc99;
+}
+
+.custom-vlc {
+    background: #ffa000;
+}
+
+#temperature {
+    background: #f0932b;
+}
+
+#temperature.critical {
+    background: #eb4d4b;
+}
+
+#tray {
+    background-color: #504945;
+}
+
+#idle_inhibitor {
+    background-color: #2d3436;
+}
+
+#idle_inhibitor.activated {
+    background-color: #ecf0f1;
+    color: #2d3436;
+}
+

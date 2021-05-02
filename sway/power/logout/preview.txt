@@ -1,0 +1,3 @@
+LOGOUT
+
+logout from sway session

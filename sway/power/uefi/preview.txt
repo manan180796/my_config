@@ -1,0 +1,3 @@
+UEFI
+
+Reboot the system and enter uefi settings

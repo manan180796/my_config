@@ -3,7 +3,7 @@
 rm $HOME/.config/sway 
 
 # link sway to current directory
-ln -s $(realpath sway_config) $HOME/.config/sway 
+ln -s $(realpath sway) $HOME/.config/sway 
 
 ### ALACRITTY ###
 # remove previous sway file (if it was link else will give error)

@@ -1,0 +1,59 @@
+{
+    "label" : "lock",
+    "action" : "bash $HOME/.local/bin/lock.sh",
+    "text" : "Lock - l",
+    "keybind" : "l"
+}
+
+{
+    "label" : "logout",
+    "action" : "swaymsg exit",
+    "text" : "Logout - e",
+    "keybind" : "e"
+}
+
+{
+    "label" : "suspend",
+    "action" : "systemctl suspend",
+    "text" : "Suspend - u",
+    "keybind" : "u"
+}
+
+{
+    "label" : "reboot",
+    "action" : "systemctl reboot",
+    "text" : "Reboot - r",
+    "keybind" : "r"
+}
+
+{
+    "label" : "hybrid",
+    "action" : "systemctl hybrid-sleep",
+    "text" : "Hybrid - b",
+    "keybind" : "b"
+}
+
+{
+    "label" : "firmware",
+    "action" : "systemctl reboot --firmware-setup",
+    "text" : "UEFI - f",
+    "keybind" : "f"
+}
+
+{
+    "label" : "hibernate",
+    "action" : "systemctl hibernate",
+    "text" : "Hibernate - h",
+    "keybind" : "h"
+}
+
+{
+    "label" : "shutdown",
+    "action" : "systemctl poweroff",
+    "text" : "Shutdown - s",
+    "keybind" : "s"
+}
+
+
+
+

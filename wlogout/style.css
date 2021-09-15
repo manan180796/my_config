@@ -19,7 +19,7 @@ button#logout:focus, button#logout:active, button#logout:hover {
 	outline-style: none;
 }
 #logout {
-    background-image: image(url("/home/manan-sharma/.config/wlogout/icons/system-log-out-icon.png"));
+    background-image: image(url("/home/quasar/.config/wlogout/icons/system-log-out-icon.png"));
 }
 
 button#lock:focus, button#lock:active, button#lock:hover {
@@ -28,7 +28,7 @@ button#lock:focus, button#lock:active, button#lock:hover {
 	outline-style: none;
 }
 #lock {
-    background-image: image(url("/home/manan-sharma/.config/wlogout/icons/system-lock-screen-icon.png"));
+    background-image: image(url("/home/quasar/.config/wlogout/icons/system-lock-screen-icon.png"));
 }
 
 button#shutdown:focus, button#shutdown:active, button#shutdown:hover {
@@ -37,7 +37,7 @@ button#shutdown:focus, button#shutdown:active, button#shutdown:hover {
 	outline-style: none;
 }
 #shutdown {
-    background-image: image(url("/home/manan-sharma/.config/wlogout/icons/system-shutdown-icon.png"));
+    background-image: image(url("/home/quasar/.config/wlogout/icons/system-shutdown-icon.png"));
 }
 
 button#hibernate:focus, button#hibernate:active, button#hibernate:hover {
@@ -46,7 +46,7 @@ button#hibernate:focus, button#hibernate:active, button#hibernate:hover {
 	outline-style: none;
 }
 #hibernate {
-    background-image: image(url("/home/manan-sharma/.config/wlogout/icons/system-suspend-hibernate-icon.png"));
+    background-image: image(url("/home/quasar/.config/wlogout/icons/system-suspend-hibernate-icon.png"));
 }
 
 button#suspend:focus, button#suspend:active, button#suspend:hover {
@@ -55,7 +55,7 @@ button#suspend:focus, button#suspend:active, button#suspend:hover {
 	outline-style: none;
 }
 #suspend {
-    background-image: image(url("/home/manan-sharma/.config/wlogout/icons/system-suspend-icon.png"));
+    background-image: image(url("/home/quasar/.config/wlogout/icons/system-suspend-icon.png"));
 }
 
 
@@ -65,7 +65,7 @@ button#reboot:focus, button#reboot:active, button#reboot:hover {
 	outline-style: none;
 }
 #reboot {
-    background-image: image(url("/home/manan-sharma/.config/wlogout/icons/system-reboot-icon.png"));
+    background-image: image(url("/home/quasar/.config/wlogout/icons/system-reboot-icon.png"));
 }
 
 button#firmware:focus, button#firmware:active, button#firmware:hover {
@@ -74,7 +74,7 @@ button#firmware:focus, button#firmware:active, button#firmware:hover {
 	outline-style: none;
 }
 #firmware {
-    background-image: image(url("/home/manan-sharma/.config/wlogout/icons/applications-development-icon.png"));
+    background-image: image(url("/home/quasar/.config/wlogout/icons/applications-development-icon.png"));
 }
 
 button#hybrid:focus, button#hybrid:active, button#hybrid:hover {
@@ -83,7 +83,7 @@ button#hybrid:focus, button#hybrid:active, button#hybrid:hover {
 	outline-style: none;
 }
 #hybrid {
-    background-image: image(url("/home/manan-sharma/.config/wlogout/icons/system-suspend-icon.png"));
+    background-image: image(url("/home/quasar/.config/wlogout/icons/system-suspend-icon.png"));
 }
 
 
